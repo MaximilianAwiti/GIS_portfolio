@@ -53,3 +53,26 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+/* Basic Gallery Styling */
+.gallery-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.gallery-item h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.gallery-item p {
+    font-size: 1em;
+    color: #555;
+}
