@@ -41,9 +41,25 @@ section {
 
 /* Map */
 #map {
-    height: 400px;
+    height: 300px; /* Reduced size */
     width: 100%;
     border-radius: 10px;
+}
+
+/* Image Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
 /* Footer */
@@ -52,27 +68,4 @@ footer {
     color: white;
     padding: 10px;
     margin-top: 20px;
-}
-/* Basic Gallery Styling */
-.gallery-item {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.gallery-item img {
-    max-width: 100%;
-    height: auto;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-}
-
-.gallery-item h3 {
-    margin: 10px 0;
-    font-size: 1.5em;
-}
-
-.gallery-item p {
-    font-size: 1em;
-    color: #555;
 }
