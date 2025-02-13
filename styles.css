@@ -55,8 +55,8 @@ section {
 }
 
 .grid-item img {
-    width: 100%;
-    height: auto;
+    width: 150px; /* Set a fixed width for all images */
+    height: auto; /* Maintain aspect ratio */
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
