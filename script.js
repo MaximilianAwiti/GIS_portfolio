@@ -1,11 +1,9 @@
-// Initialize the Leaflet map
-var map = L.map('map').setView([59.3293, 18.0686], 6); // Centered on Sweden
+function openModal(img) {
+    document.getElementById("imageModal").style.display = "flex";
+    document.getElementById("modalImage").src = img.src;
+}
 
-// Add a tile layer (OpenStreetMap)
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; OpenStreetMap contributors'
-}).addTo(map);
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
 
-// Example: Add a marker (You can add project locations later)
-L.marker([59.3293, 18.0686]).addTo(map)
-    .bindPopup('Stockholm, Sweden - Example GIS Project');
