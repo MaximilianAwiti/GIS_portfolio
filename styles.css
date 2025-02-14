@@ -171,9 +171,11 @@ footer {
     font-size: 1.2em;
     text-align: center;
     color: #444;
-    margin-bottom: 20px;
+    margin-top: -10px;  /* Moves it closer */
+    margin-bottom: 10px; /* Reduces space below */
     font-weight: bold;
 }
+
 
 
 
