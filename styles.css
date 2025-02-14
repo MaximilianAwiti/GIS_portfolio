@@ -83,6 +83,12 @@ nav ul li a {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+/* Hover Effect */
+.zoom-image:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
 }
 
 /* Bold Title */
