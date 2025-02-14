@@ -52,21 +52,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero Section */
-#hero {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-#hero h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-#hero p {
-    font-size: 1.2em;
-}
-
 /* Projects Section */
 #projects {
     padding: 50px 20px;
@@ -82,7 +67,7 @@ nav ul li a {
 .image-item {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px; /* Increased gap to move text closer to the image */
     margin-bottom: 40px;
 }
 
