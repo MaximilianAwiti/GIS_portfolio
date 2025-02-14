@@ -60,8 +60,8 @@ nav ul li a {
 }
 
 #projects h2 {
-    font-size: 2em;
-    margin-bottom: 40px;
+    text-align: left; /* Ensures "Projects" stays left-aligned */
+    margin-bottom: 5px; /* Reduces space below it */
 }
 
 .image-item {
@@ -170,12 +170,13 @@ footer {
 
 .projects-subtitle {
     font-size: 1.2em;
-    text-align: center;
-    color: #333; /* Darker for better contrast */
+    color: #333;
     font-weight: bold;
-    margin-top: -15px; /* Moves it closer to "Projects" */
-    margin-bottom: 10px; /* Reduces space below */
+    margin-top: -10px; /* Moves it closer to "Projects" */
+    margin-bottom: 10px;
+    text-align: left; /* Aligns text to the left */
 }
+
 
 
 
