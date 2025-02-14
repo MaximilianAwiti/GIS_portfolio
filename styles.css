@@ -85,8 +85,10 @@ nav ul li a {
     border-radius: 10px;
 }
 
-.image-item h3 {
-    font-size: 1.5em;
+/* Bold Title */
+.bold-title {
+    font-weight: bold;
+    font-size: 1.2em; /* Smaller font size */
     margin-bottom: 10px;
 }
 
