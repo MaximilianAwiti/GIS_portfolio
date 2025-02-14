@@ -160,6 +160,22 @@ footer {
     cursor: pointer;
 }
 
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.projects-subtitle {
+    font-size: 1.2em;
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
 
 
 
