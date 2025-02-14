@@ -3,72 +3,146 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Background color for the entire page */
-    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
 /* Header */
 header {
     background: #333;
     color: white;
-    padding: 15px;
+    padding: 15px 0;
+    text-align: center;
 }
 
-nav ul {
+header nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+header nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
-/* Sections */
-section {
-    padding: 50px;
-    background: transparent; /* Remove white background */
+/* Hero Section */
+#hero {
+    background: #555;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Project Section */
+#project {
+    padding: 50px 20px;
+    background: white;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1200px;
     border-radius: 10px;
-    box-shadow: none; /* Remove box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Map */
-#map {
-    height: 300px; /* Reduced size */
+.project-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-map {
+    flex: 1;
+}
+
+.project-map img {
     width: 100%;
     border-radius: 10px;
-    background-color: white; /* Add a white background to the map container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the map */
 }
 
-/* Image Grid */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.project-links {
+    display: flex;
     gap: 10px;
     margin-top: 20px;
 }
 
+.btn {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Cartographic Maps Section */
+#cartographic-maps {
+    padding: 50px 20px;
+    background: white;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 .grid-item img {
-    width: 150px; /* Set a fixed width for all images */
-    height: auto; /* Maintain aspect ratio */
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    background-color: white; /* Add a white background to the images */
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.grid-item p {
+    font-size: 0.9em;
+    color: #555;
 }
 
 /* Footer */
 footer {
     background: #333;
     color: white;
-    padding: 10px;
+    text-align: center;
+    padding: 20px 0;
     margin-top: 20px;
 }
