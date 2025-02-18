@@ -180,6 +180,128 @@ footer {
     display: block; /* Makes sure it behaves correctly */
 }
 
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text .btn {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-text .btn:hover {
+    background: #0056b3;
+}
+
+/* About Section */
+#about {
+    padding: 80px 20px;
+    background: #f4f4f4;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill-item {
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.skill-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* CTA Section */
+#cta {
+    padding: 60px 20px;
+    text-align: center;
+    background: #007BFF;
+    color: white;
+}
+
+#cta h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#cta .btn {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background: white;
+    color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#cta .btn:hover {
+    background: #e6e6fa;
+}
+
+
 
 
 
