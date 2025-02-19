@@ -329,16 +329,13 @@ footer {
     margin-bottom: 5px; /* Reduce space below */
 }
 
-/* Adjust subtitle to be smaller */
 .projects-subtitle {
-    .projects-subtitle {
     text-align: left; /* Ensures it's aligned with "Projects" */
     padding-left: 40px; /* Matches title position */
     margin-top: -5px; /* Reduces gap */
     font-size: 1em; /* Smaller subtitle */
     font-style: italic;
     color: #666; /* Lighter gray for subtle contrast */
-    margin-top: 0;
 }
 
  /* Ensure proper width and centering */
@@ -367,10 +364,12 @@ footer {
 .image-item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 40px; /* Space between text and image */
-    margin-bottom: 40px;
+    justify-content: center; /* Centers text & image properly */
+    gap: 40px;
+    max-width: 1100px; /* Keeps content from stretching */
+    margin: 0 auto 40px; /* Centers horizontally */
 }
+
 
 
 
