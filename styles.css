@@ -8,13 +8,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
-header {
-    background: #333;
-    color: white;
-    padding: 20px 0;
-}
-
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -319,6 +312,24 @@ footer {
 #cta .btn:hover {
     background: #e6e6fa;
 }
+
+/* Projects Page Header */
+#projects-header {
+    text-align: center;
+    padding: 50px 20px;
+    background: none; /* Ensure no black box */
+}
+
+#projects-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.projects-subtitle {
+    font-size: 1.2em;
+    color: #555;
+}
+
 
 
 
