@@ -52,6 +52,31 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Scroll-Based Navbar Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0); /* Fully transparent initially */
+    transition: all 0.3s ease-in-out;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: none;
+    z-index: 1000; /* Ensures the navbar stays on top */
+}
+
+/* Visible Navbar when scrolling */
+nav.visible {
+    background: rgba(255, 255, 255, 0.9); /* Adds a light background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hides Navbar when at the top */
+nav.hidden {
+    transform: translateY(-100%);
+}
+
 /* Projects Section */
 #projects {
     padding: 50px 20px;
