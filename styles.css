@@ -341,25 +341,38 @@ footer {
     margin-top: 0;
 }
 
-    /* Ensure proper width and centering */
+ /* Ensure proper width and centering */
 .container {
-    max-width: 1200px; /* Keeps content within a readable width */
-    margin: 0 auto; /* Centers content */
-    padding: 0 20px; /* Adds spacing on the sides */
+    max-width: 1200px; /* Prevents content from stretching too wide */
+    margin: 0 auto; /* Centers everything horizontally */
+    padding: 0 20px; /* Adds space on the sides */
 }
 
-/* Fix image alignment */
+/* Ensure images don't touch the edge */
 .image-container img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Centers images inside their containers */
+    margin: 0 auto; /* Centers images */
 }
 
-/* Adjust text alignment */
+/* Adjust text alignment inside project sections */
 .image-text {
-    padding-right: 20px; /* Adds space between text and images */
+    max-width: 600px; /* Limits text width for better readability */
+    margin: 0 auto; /* Centers the text block */
+    padding-right: 20px; /* Adds space between text and image */
 }
+
+/* Make sure text and images have proper spacing */
+.image-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; /* Space between text and image */
+    margin-bottom: 40px;
+}
+
+
 
 
 
