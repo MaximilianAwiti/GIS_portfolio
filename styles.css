@@ -370,6 +370,46 @@ footer {
     margin: 0 auto 40px; /* Centers horizontally */
 }
 
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #007BFF; /* Same blue as previous CTA */
+    color: white;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-links .btn {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    background: white;
+    color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-links .btn:hover {
+    background: #e6e6fa; /* Light hover effect */
+}
+
+
+
+
 
 
 
