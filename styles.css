@@ -28,11 +28,12 @@ body {
 }
 
 nav {
-    position: relative; /* Keep it normal (not fixed) */
-    padding-top: 15px; /* Push it down slightly */
+    position: absolute; /* Moves nav to the top */
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 15px 30px;
     text-align: right;
-    padding-right: 30px; /* Add some space from the right */
-    
 }
 
 nav ul {
