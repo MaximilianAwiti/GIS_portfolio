@@ -68,9 +68,13 @@ nav {
 
 /* Visible Navbar when scrolling */
 nav.visible {
-    background: rgba(255, 255, 255, 0.9); /* Adds a light background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: rgba(0, 0, 0, 0.9); /* Black background with slight transparency */
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Light shadow effect */
 }
+
+/* Navbar Links - Ensure they remain visible */
+nav ul li a {
+    color: white !important; /* Force white text color */
 
 /* Hides Navbar when at the top */
 nav.hidden {
