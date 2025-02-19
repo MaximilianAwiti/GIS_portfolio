@@ -314,28 +314,28 @@ footer {
     background: #e6e6fa;
 }
 
-/* Projects Page Header - No Background Box */
+/* Adjust the Projects Header */
 #projects-header {
-    text-align: left;
-    padding-left: 40px;
-     padding-top: 80px;
-    color: black; /* Matches the rest of the page */
+    max-width: 1200px; /* Match the container width */
+    margin: 0 auto; /* Center the header */
+    padding: 80px 20px 20px 20px; /* Adjust padding to match the layout */
+    text-align: left; /* Align text to the left */
 }
 
-/* Make the "Projects" title slightly bigger */
 #projects-header h1 {
-    font-size: 3.5em; /* Slightly larger */
+    font-size: 3.5em;
     font-weight: bold;
-    margin-bottom: 5px; /* Reduce space below */
+    margin-bottom: 5px; /* Reduce space below the title */
+    padding-left: 0; /* Remove left padding to align with text */
 }
 
 .projects-subtitle {
-    text-align: left; /* Ensures it's aligned with "Projects" */
-    padding-left: 40px; /* Matches title position */
-    margin-top: -5px; /* Reduces gap */
-    font-size: 1em; /* Smaller subtitle */
+    font-size: 1.2em;
+    color: #666;
     font-style: italic;
-    color: #666; /* Lighter gray for subtle contrast */
+    margin-top: -5px; /* Reduce gap between title and subtitle */
+    padding-left: 0; /* Remove left padding to align with text */
+    text-align: left; /* Align subtitle text to the left */
 }
 
  /* Ensure proper width and centering */
