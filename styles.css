@@ -341,6 +341,27 @@ footer {
     margin-top: 0;
 }
 
+    /* Ensure proper width and centering */
+.container {
+    max-width: 1200px; /* Keeps content within a readable width */
+    margin: 0 auto; /* Centers content */
+    padding: 0 20px; /* Adds spacing on the sides */
+}
+
+/* Fix image alignment */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers images inside their containers */
+}
+
+/* Adjust text alignment */
+.image-text {
+    padding-right: 20px; /* Adds space between text and images */
+}
+
+
 
 
 
