@@ -316,8 +316,9 @@ footer {
 
 /* Projects Page Header - No Background Box */
 #projects-header {
-    text-align: center;
-    padding: 40px 20px; /* Adjusted padding to move it up */
+    text-align: left;
+    padding-left: 40px;
+     padding-top: 80px;
     color: black; /* Matches the rest of the page */
 }
 
@@ -330,6 +331,10 @@ footer {
 
 /* Adjust subtitle to be smaller */
 .projects-subtitle {
+    .projects-subtitle {
+    text-align: left; /* Ensures it's aligned with "Projects" */
+    padding-left: 40px; /* Matches title position */
+    margin-top: -5px; /* Reduces gap */
     font-size: 1em; /* Smaller subtitle */
     font-style: italic;
     color: #666; /* Lighter gray for subtle contrast */
