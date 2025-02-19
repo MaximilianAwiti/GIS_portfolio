@@ -313,31 +313,27 @@ footer {
     background: #e6e6fa;
 }
 
-/* Projects Page Header - Adjusted */
+/* Projects Page Header */
 #projects-header {
     text-align: center;
-    padding: 40px 20px; /* Reduced padding to move it higher */
-    background: #333;
+    padding: 80px 20px;
+    background: #333; /* Dark background for contrast */
     color: white;
-    margin-top: 0; /* Ensures it's at the very top */
-    position: relative; /* Keeps it stable */
 }
 
-/* Make the "Projects" title bigger */
 #projects-header h1 {
-    font-size: 4em; /* Increased size */
-    margin-bottom: 5px; /* Reduced gap */
+    font-size: 3em;
+    margin-bottom: 10px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* Adjust subtitle */
 .projects-subtitle {
-    font-size: 1.5em; /* Slightly larger */
+    font-size: 1.4em;
     font-style: italic;
     color: #f4f4f4;
-    margin-top: 0; /* Prevents extra spacing */
 }
+
 
 
 
