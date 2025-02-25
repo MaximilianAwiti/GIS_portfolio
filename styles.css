@@ -1,3 +1,4 @@
+The code for when it used to look good lol: 
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -27,14 +28,19 @@ body {
     margin: 5px 0 0;
 }
 
-/* Navigation */
 nav {
+    position: absolute; /* Moves nav to the top */
+    top: 0;
+    right: 0;
     width: 100%;
     padding: 15px 30px;
     text-align: right;
 }
 
 nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
@@ -55,26 +61,6 @@ nav ul li a {
 nav ul li a:hover {
     color: #555; /* Dark gray hover effect */
 }
-
-/* Responsive Navigation (NEW) */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-    }
-
-    .header-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .header-text h1 {
-        font-size: 2em;
-    }
-}
-
 
 /* Projects Section */
 #projects {
@@ -242,22 +228,6 @@ footer {
     background: #0056b3;
 }
 
-/* Hero Section (Responsive) */
-@media (max-width: 768px) {
-    .hero {
-        height: 80vh;
-        padding: 20px;
-    }
-
-    .hero-text h1 {
-        font-size: 2em;
-    }
-
-    .hero-text p {
-        font-size: 1em;
-    }
-}
-
 /* About Section */
 #about {
     padding: 80px 20px;
@@ -292,14 +262,6 @@ footer {
     border-radius: 10px;
 }
 
-/* Responsive About Section */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
 /* Skills Section */
 #skills {
     padding: 60px 20px;
@@ -307,19 +269,11 @@ footer {
     background: white;
 }
 
-/* Skills Section */
 .skills-container {
     display: flex;
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap; /* NEW - Allows items to wrap for small screens */
 }
-
-.skill-item {
-    width: 150px;
-    padding: 20px;
-}
-
 
 .skill-item {
     background: #333;
@@ -334,7 +288,6 @@ footer {
     font-size: 2em;
     margin-bottom: 10px;
 }
-
 
 /* CTA Section */
 #cta {
@@ -418,19 +371,6 @@ footer {
     margin: 0 auto 40px; /* Centers horizontally */
 }
 
-/* Responsive Project Layout */
-@media (max-width: 768px) {
-    .image-item {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .image-container img {
-        max-width: 100%;
-    }
-}
-
 /* Contact Section */
 #contact {
     padding: 60px 20px;
@@ -468,13 +408,6 @@ footer {
     background: #e6e6fa; /* Light hover effect */
 }
 
-/* Responsive Contact Buttons */
-@media (max-width: 768px) {
-    .contact-links {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
 
 
 
