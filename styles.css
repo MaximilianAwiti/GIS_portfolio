@@ -1,10 +1,9 @@
-The code for when it used to look good lol: 
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6e6fa; /* Light purple background */
+    background-color: #e6e6fa;
     color: #333;
     line-height: 1.6;
 }
@@ -29,7 +28,7 @@ body {
 }
 
 nav {
-    position: absolute; /* Moves nav to the top */
+    position: absolute;
     top: 0;
     right: 0;
     width: 100%;
@@ -57,9 +56,8 @@ nav ul li a {
     font-size: 1em;
 }
 
-/* Optional: Change Hover Effect */
 nav ul li a:hover {
-    color: #555; /* Dark gray hover effect */
+    color: #555;
 }
 
 /* Projects Section */
@@ -70,15 +68,15 @@ nav ul li a:hover {
 }
 
 #projects h2 {
-    text-align: left;  /* Ensures "Projects" stays left-aligned */
-    margin-bottom: 5px; /* Reduces space below */
-    padding-left: 20px; /* Adjust for consistency */
+    text-align: left;
+    margin-bottom: 5px;
+    padding-left: 20px;
 }
 
 .image-item {
     display: flex;
     align-items: center;
-    gap: 40px; /* Increased gap to move text closer to the image */
+    gap: 40px;
     margin-bottom: 40px;
 }
 
@@ -94,18 +92,16 @@ nav ul li a:hover {
     width: 100%;
     max-width: 500px;
     border-radius: 10px;
-    transition: transform 0.3s ease; /* Smooth scaling effect */
+    transition: transform 0.3s ease;
 }
 
-/* Hover Effect */
 .zoom-image:hover {
-    transform: scale(1.05); /* Slightly scale up on hover */
+    transform: scale(1.05);
 }
 
-/* Bold Title */
 .bold-title {
     font-weight: bold;
-    font-size: 1.2em; /* Smaller font size */
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
@@ -169,25 +165,6 @@ footer {
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
-}
-
-.subtitle {
-    font-size: 1.2em;
-    color: #fff;
-    margin-top: 5px;
-    font-style: italic;
-    text-align: center; /* Center it to align with the name */
-}
-
-.projects-subtitle {
-    font-size: 1.2em;
-    color: #333;
-    font-weight: bold;
-    margin-top: -5px; /* Moves it closer to "Projects" */
-    margin-bottom: 10px;
-    text-align: left; /* Aligns subtitle with "Projects" */
-    padding-left: 20px; /* Ensures same spacing as "Projects" */
-    display: block; /* Makes sure it behaves correctly */
 }
 
 /* Hero Section */
@@ -315,67 +292,11 @@ footer {
     background: #e6e6fa;
 }
 
-/* Adjust the Projects Header */
-#projects-header {
-    max-width: 1200px; /* Match the container width */
-    margin: 0 auto; /* Center the header */
-    padding: 80px 20px 20px 20px; /* Adjust padding to match the layout */
-    text-align: left; /* Align text to the left */
-}
-
-#projects-header h1 {
-    font-size: 3.5em;
-    font-weight: bold;
-    margin-bottom: 5px; /* Reduce space below the title */
-    padding-left: 0; /* Remove left padding to align with text */
-}
-
-.projects-subtitle {
-    font-size: 1.2em;
-    color: #666;
-    font-style: italic;
-    margin-top: -5px; /* Reduce gap between title and subtitle */
-    padding-left: 0; /* Remove left padding to align with text */
-    text-align: left; /* Align subtitle text to the left */
-}
-
- /* Ensure proper width and centering */
-.container {
-    max-width: 1200px; /* Prevents content from stretching too wide */
-    margin: 0 auto; /* Centers everything horizontally */
-    padding: 0 20px; /* Adds space on the sides */
-}
-
-/* Ensure images don't touch the edge */
-.image-container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Centers images */
-}
-
-/* Adjust text alignment inside project sections */
-.image-text {
-    max-width: 600px; /* Limits text width for better readability */
-    margin: 0 auto; /* Centers the text block */
-    padding-right: 20px; /* Adds space between text and image */
-}
-
-/* Make sure text and images have proper spacing */
-.image-item {
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Centers text & image properly */
-    gap: 40px;
-    max-width: 1100px; /* Keeps content from stretching */
-    margin: 0 auto 40px; /* Centers horizontally */
-}
-
 /* Contact Section */
 #contact {
     padding: 60px 20px;
     text-align: center;
-    background: #007BFF; /* Same blue as previous CTA */
+    background: #007BFF;
     color: white;
 }
 
@@ -405,17 +326,56 @@ footer {
 }
 
 .contact-links .btn:hover {
-    background: #e6e6fa; /* Light hover effect */
+    background: #e6e6fa;
 }
 
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    nav {
+        position: static;
+        padding: 10px;
+        text-align: center;
+    }
 
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
 
+    .image-item {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .about-container {
+        flex-direction: column;
+        gap: 20px;
+    }
 
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .hero-text h1 {
+        font-size: 2em;
+    }
 
+    .hero-text p {
+        font-size: 1.2em;
+    }
 
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
+}
+   
 
 
 
