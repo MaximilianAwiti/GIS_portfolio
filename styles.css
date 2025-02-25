@@ -81,10 +81,10 @@ nav ul li a:hover {
 }
 
 .projects-subtitle {
-    font-size: 1.1em; /* Slightly smaller font size */
+    font-size: 1.0em; /* Slightly smaller font size */
     color: #333;
     font-weight: bold;
-    margin-top: -15px; /* Move even closer to the title */
+    margin-top: -20px; /* Move even closer to the title */
     margin-bottom: 10px;
     text-align: left; /* Align subtitle to the left */
     padding-left: 20px; /* Match padding of "Projects" */
