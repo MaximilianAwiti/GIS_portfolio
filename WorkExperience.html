@@ -17,22 +17,37 @@
   </header>
 
   <main class="project-section">
-    <section class="project">
-      <div class="project-text">
-        <h2>Stompunktskarta med interaktiva popups</h2>
-        <p>
-          I detta projekt skapade jag en webbkarta över stompunkter för entreprenörer och interna användare i Sundbybergs kommun. Jag designade kartan i ArcGIS Pro och publicerade den till ArcGIS Enterprise. 
-          För att lösa problemet med att X/Y-koordinater inte kunde läggas in utan att störa användarna använde jag <strong>Arcade Expressions</strong> för att visa koordinater direkt i popups – en skalbar lösning som förbättrade användarflödet.
-        </p>
-        <p><strong>Teknik:</strong> ArcGIS Pro | Arcade | ArcGIS Enterprise</p>
-        <a class="button" href="https://www.sundbyberg.se/stompunktskarta-länk">Visa webbkarta</a>
-      </div>
-      <div class="project-image">
-        <img src="images/stompunkter_screenshot.jpg" alt="Stompunktskarta med popup" />
-      </div>
-    </section>
+    <section class="project-block">
+  <div class="project-text">
+    <h2>Stompunktskarta med interaktiva popups</h2>
+    <p>
+      I detta projekt fick jag i uppdrag att ta fram en interaktiv webbkarta över kommunens stompunkter, 
+      vilket är referenspunkter för mätning och byggnation. Kartan skulle användas både av kommunens interna avdelningar 
+      och externa entreprenörer som underlag inför grävningar, mätningar och planering.
+    </p>
+    <p>
+      Jag designade kartan i <strong>ArcGIS Pro</strong>, där jag lade in relevanta attributfält och skapade en tydlig symbolik. 
+      Sedan publicerade jag kartan till kommunens interna <strong>ArcGIS Enterprise</strong> och bäddade in den på den externa hemsidan.
+    </p>
+    <p>
+      <strong>Tekniskt genomförande:</strong> Ett särskilt problem i projektet var att varje gång X/Y-koordinater skulle läggas till i attributtabellen, 
+      krävdes att alla användare loggade ut ur systemet – vilket störde den dagliga verksamheten. 
+      För att lösa detta använde jag <strong>Arcade Expressions</strong> för att dynamiskt visa koordinater i pop-ups, 
+      utan att redigera data direkt.
+    </p>
+    <p>
+      <strong>Publik karta:</strong> Webbkartan används idag av både kommunens personal och externa aktörer. 
+      Den är tillgänglig på Sundbybergs officiella hemsida:<br>
+      <em>Visa stompunktskartan här</em> *(ersätt med länk)*
+    </p>
+  </div>
+  <div class="project-image">
+    <img src="images/stompunkter_screenshot.jpg" alt="Skärmdump från stompunktskartan">
+  </div>
+</section>
 
-    <!-- Kopiera och skapa fler <section class="project"> för andra jobbprojekt -->
+<hr class="project-divider" />
+
 
   </main>
 
